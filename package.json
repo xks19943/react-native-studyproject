@@ -1,0 +1,50 @@
+{
+  "name": "StudyProject",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "configureJPush": "node node_modules/jpush-react-native/JPushConfiguration.js",
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "jpush-react-native": "^1.1.8",
+    "react": "15.3.2",
+    "react-native": "0.35.0",
+    "react-native-camera": "git+https://github.com/lwansbrough/react-native-camera.git",
+    "react-native-chart": "^1.0.8-beta",
+    "react-native-checkbox": "^1.0.15",
+    "react-native-datetime": "^0.1.2",
+    "react-native-device-info": "^0.9.6",
+    "react-native-elements": "^0.6.1",
+    "react-native-image-picker": "^0.21.4",
+    "react-native-image-progress": "^0.6.0",
+    "react-native-navbar": "^1.5.4",
+    "react-native-parallax-scroll-view": "^0.19.0",
+    "react-native-picker": "^4.0.8",
+    "react-native-popup": "^0.5.2",
+    "react-native-qrcode": "^0.2.2",
+    "react-native-radio-buttons": "^0.12.1",
+    "react-native-scrollable-tab-view": "^0.6.0",
+    "react-native-search-bar": "^2.16.0",
+    "react-native-simple-radio-button": "^2.1.2",
+    "react-native-splash-screen": "^1.0.9",
+    "react-native-swipe-list-view": "^0.3.2",
+    "react-native-tab-navigator": "^0.3.3",
+    "react-native-timer-mixin": "^0.11.0",
+    "react-native-vector-icons": "^3.0.0",
+    "react-native-viewpager": "^0.2.11",
+    "react-native-wechat": "^1.7.0",
+    "rn-umeng": "^1.0.4"
+  },
+  "jest": {
+    "preset": "jest-react-native"
+  },
+  "devDependencies": {
+    "babel-jest": "16.0.0",
+    "babel-preset-react-native": "1.9.0",
+    "jest": "16.0.2",
+    "jest-react-native": "16.0.0",
+    "react-test-renderer": "15.3.2"
+  }
+}

@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="PopAnim">
+        <item name="android:windowEnterAnimation">@anim/popup_enter</item>
+        <item name="android:windowExitAnimation">@anim/popup_exit</item>
+    </style>
+
+    <style name="push_style">
+        <item name="android:hint">@string/style_hint</item>
+        <item name="android:inputType">number</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="push_alias">
+        <item name="android:hint">@string/alias_hint</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="push_tag">
+        <item name="android:hint">@string/tag_hint</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="SplashScreen_SplashAnimation">
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <style name="SplashScreen_SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowAnimationStyle">@style/SplashScreen_SplashAnimation</item>
+    </style>
+    <style name="SplashScreen_Fullscreen" parent="SplashScreen_SplashTheme">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+</resources>
